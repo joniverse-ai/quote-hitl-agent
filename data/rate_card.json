@@ -1,0 +1,2684 @@
+{
+ "source": "견적단가표 엑셀 (표준견적서 · 등급별 기준 · 샘플 제작 기준 시트)",
+ "grades": [
+  "신규S",
+  "신규A",
+  "파생B",
+  "파생C",
+  "수정A",
+  "수정B"
+ ],
+ "grade_groups": {
+  "신규": [
+   "신규S",
+   "신규A"
+  ],
+  "파생": [
+   "파생B",
+   "파생C"
+  ],
+  "수정": [
+   "수정A",
+   "수정B"
+  ]
+ },
+ "categories": [
+  {
+   "id": "ad_a",
+   "name": "광고 디자인 Level A (KV/Image/Poster)",
+   "items": [
+    {
+     "id": "ad_a.0",
+     "cost_type": "기획비",
+     "item": "컨셉 및 기획(아트디렉션)",
+     "detail": null,
+     "prices": {
+      "신규S": 2200000,
+      "신규A": 1800000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 19
+    },
+    {
+     "id": "ad_a.1",
+     "cost_type": "기획비",
+     "item": "시안제작비",
+     "detail": null,
+     "prices": {
+      "신규S": 350000,
+      "신규A": 200000,
+      "파생B": 150000,
+      "파생C": 130000,
+      "수정A": 100000,
+      "수정B": 50000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "건별 단가",
+     "row": 20
+    },
+    {
+     "id": "ad_a.2",
+     "cost_type": "디자인비",
+     "item": "크리에이티브",
+     "detail": null,
+     "prices": {
+      "신규S": 1800000,
+      "신규A": 1500000,
+      "파생B": 1200000,
+      "파생C": 1000000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "건당 단가",
+     "row": 21
+    },
+    {
+     "id": "ad_a.3",
+     "cost_type": "디자인비",
+     "item": "컴퓨터그래픽합성",
+     "detail": null,
+     "prices": {
+      "신규S": 120000,
+      "신규A": 120000,
+      "파생B": 120000,
+      "파생C": 120000,
+      "수정A": 120000,
+      "수정B": 120000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "시간당 단가",
+     "row": 22
+    },
+    {
+     "id": "ad_a.4",
+     "cost_type": "디자인비",
+     "item": "스톡이미지",
+     "detail": null,
+     "prices": {
+      "신규S": 200000,
+      "신규A": 200000,
+      "파생B": 200000,
+      "파생C": 200000,
+      "수정A": 200000,
+      "수정B": 200000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "이미지 개당 단가",
+     "row": 23
+    },
+    {
+     "id": "ad_a.5",
+     "cost_type": "편집비",
+     "item": "최종원고 교정/교열",
+     "detail": "국전이상",
+     "prices": {
+      "신규S": 2200000,
+      "신규A": 1540000,
+      "파생B": 1100000,
+      "파생C": 880000,
+      "수정A": 660000,
+      "수정B": 440000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "건당 단가",
+     "row": 24
+    },
+    {
+     "id": "ad_a.6",
+     "cost_type": "편집비",
+     "item": "최종원고 교정/교열",
+     "detail": "2절",
+     "prices": {
+      "신규S": 2000000,
+      "신규A": 1400000,
+      "파생B": 1000000,
+      "파생C": 800000,
+      "수정A": 600000,
+      "수정B": 400000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "건당 단가",
+     "row": 25
+    },
+    {
+     "id": "ad_a.7",
+     "cost_type": "편집비",
+     "item": "최종원고 교정/교열",
+     "detail": "4절",
+     "prices": {
+      "신규S": 1800000,
+      "신규A": 1260000,
+      "파생B": 900000,
+      "파생C": 720000,
+      "수정A": 540000,
+      "수정B": 360000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "건당 단가",
+     "row": 26
+    },
+    {
+     "id": "ad_a.8",
+     "cost_type": "컬러교정인쇄",
+     "item": "인쇄교정 (전지사이즈)",
+     "detail": null,
+     "prices": {
+      "신규S": 250000,
+      "신규A": 250000,
+      "파생B": 250000,
+      "파생C": 250000,
+      "수정A": 250000,
+      "수정B": 250000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": null,
+     "row": 27
+    }
+   ]
+  },
+  {
+   "id": "ad_b",
+   "name": "광고 디자인 Level B (Magazine, 지면광고, 온라인배너)",
+   "items": [
+    {
+     "id": "ad_b.0",
+     "cost_type": "기획비",
+     "item": "컨셉 및 기획료(아트디렉션)",
+     "detail": null,
+     "prices": {
+      "신규S": 2000000,
+      "신규A": 1500000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 30
+    },
+    {
+     "id": "ad_b.1",
+     "cost_type": "기획비",
+     "item": "시안제작비",
+     "detail": null,
+     "prices": {
+      "신규S": 800000,
+      "신규A": 600000,
+      "파생B": 400000,
+      "파생C": 200000,
+      "수정A": 100000,
+      "수정B": 50000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "건별 단가",
+     "row": 31
+    },
+    {
+     "id": "ad_b.2",
+     "cost_type": "디자인비",
+     "item": "크리에이티브",
+     "detail": null,
+     "prices": {
+      "신규S": 1500000,
+      "신규A": 1200000,
+      "파생B": 1000000,
+      "파생C": 800000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "페이지별 단가",
+     "row": 32
+    },
+    {
+     "id": "ad_b.3",
+     "cost_type": "디자인비",
+     "item": "컴퓨터그래픽합성",
+     "detail": null,
+     "prices": {
+      "신규S": 120000,
+      "신규A": 120000,
+      "파생B": 120000,
+      "파생C": 120000,
+      "수정A": 120000,
+      "수정B": 120000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "시간당 단가",
+     "row": 33
+    },
+    {
+     "id": "ad_b.4",
+     "cost_type": "디자인비",
+     "item": "스톡이미지",
+     "detail": null,
+     "prices": {
+      "신규S": 200000,
+      "신규A": 200000,
+      "파생B": 200000,
+      "파생C": 200000,
+      "수정A": 200000,
+      "수정B": 200000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "이미지 개당 단가",
+     "row": 34
+    },
+    {
+     "id": "ad_b.5",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "5*7배(A4)",
+     "prices": {
+      "신규S": 2000000,
+      "신규A": 1500000,
+      "파생B": 1000000,
+      "파생C": 800000,
+      "수정A": 300000,
+      "수정B": 200000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "페이지별 단가",
+     "row": 35
+    },
+    {
+     "id": "ad_b.6",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "4*6배(B5)",
+     "prices": {
+      "신규S": 1800000,
+      "신규A": 1000000,
+      "파생B": 800000,
+      "파생C": 500000,
+      "수정A": 200000,
+      "수정B": 150000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "페이지별 단가",
+     "row": 36
+    },
+    {
+     "id": "ad_b.7",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "신문5단",
+     "prices": {
+      "신규S": 2000000,
+      "신규A": 1200000,
+      "파생B": 1000000,
+      "파생C": 800000,
+      "수정A": 300000,
+      "수정B": 200000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "페이지별 단가",
+     "row": 37
+    },
+    {
+     "id": "ad_b.8",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "신문4단",
+     "prices": {
+      "신규S": 1800000,
+      "신규A": 1000000,
+      "파생B": 800000,
+      "파생C": 500000,
+      "수정A": 200000,
+      "수정B": 150000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "페이지별 단가",
+     "row": 38
+    },
+    {
+     "id": "ad_b.9",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "디지탈 배너 Ad",
+     "prices": {
+      "신규S": 1200000,
+      "신규A": 1000000,
+      "파생B": 800000,
+      "파생C": 500000,
+      "수정A": 200000,
+      "수정B": 150000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "페이지별 단가",
+     "row": 39
+    },
+    {
+     "id": "ad_b.10",
+     "cost_type": "카피",
+     "item": "카피라이팅",
+     "detail": null,
+     "prices": {
+      "신규S": 500000,
+      "신규A": 300000,
+      "파생B": 250000,
+      "파생C": 150000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 40
+    }
+   ]
+  },
+  {
+   "id": "edit_a",
+   "name": "편집 디자인 Level A (카탈로그, 브로셔 등)",
+   "items": [
+    {
+     "id": "edit_a.0",
+     "cost_type": "기획비",
+     "item": "컨셉 및 기획료",
+     "detail": null,
+     "prices": {
+      "신규S": 1200000,
+      "신규A": 780000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "신규건에 한함",
+     "row": 43
+    },
+    {
+     "id": "edit_a.1",
+     "cost_type": "기획비",
+     "item": "디렉션료",
+     "detail": null,
+     "prices": {
+      "신규S": 700000,
+      "신규A": 560000,
+      "파생B": 420000,
+      "파생C": 280000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "신규건에 한함",
+     "row": 44
+    },
+    {
+     "id": "edit_a.2",
+     "cost_type": "기획비",
+     "item": "시안제작비",
+     "detail": null,
+     "prices": {
+      "신규S": 300000,
+      "신규A": 240000,
+      "파생B": 210000,
+      "파생C": 180000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "건별 단가",
+     "row": 45
+    },
+    {
+     "id": "edit_a.3",
+     "cost_type": "디자인비",
+     "item": "크리에이티브료",
+     "detail": "표지 디자인",
+     "prices": {
+      "신규S": 900000,
+      "신규A": 720000,
+      "파생B": 630000,
+      "파생C": 540000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 표지 포함 단가 - Size 기준 없음 - 기본 시안 2개 - 등급 기준은 신규:개발(100%), 파생:개선(50%이상) *50%이하는 인정하지 않음. - 페이지별 단가",
+     "row": 46
+    },
+    {
+     "id": "edit_a.4",
+     "cost_type": "디자인비",
+     "item": "크리에이티브료",
+     "detail": "내지 (12p 이하)",
+     "prices": {
+      "신규S": 150000,
+      "신규A": 120000,
+      "파생B": 105000,
+      "파생C": 90000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 표지 포함 단가 - Size 기준 없음 - 기본 시안 2개 - 등급 기준은 신규:개발(100%), 파생:개선(50%이상) *50%이하는 인정하지 않음. - 페이지별 단가",
+     "row": 47
+    },
+    {
+     "id": "edit_a.5",
+     "cost_type": "디자인비",
+     "item": "크리에이티브료",
+     "detail": "내지 (14p~24p)",
+     "prices": {
+      "신규S": 120000,
+      "신규A": 96000,
+      "파생B": 84000,
+      "파생C": 72000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 표지 포함 단가 - Size 기준 없음 - 기본 시안 2개 - 등급 기준은 신규:개발(100%), 파생:개선(50%이상) *50%이하는 인정하지 않음. - 페이지별 단가",
+     "row": 48
+    },
+    {
+     "id": "edit_a.6",
+     "cost_type": "디자인비",
+     "item": "크리에이티브료",
+     "detail": "내지 (26p~48p)",
+     "prices": {
+      "신규S": 90000,
+      "신규A": 72000,
+      "파생B": 63000,
+      "파생C": 54000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 표지 포함 단가 - Size 기준 없음 - 기본 시안 2개 - 등급 기준은 신규:개발(100%), 파생:개선(50%이상) *50%이하는 인정하지 않음. - 페이지별 단가",
+     "row": 49
+    },
+    {
+     "id": "edit_a.7",
+     "cost_type": "디자인비",
+     "item": "크리에이티브료",
+     "detail": "내지 (48p 초과)",
+     "prices": {
+      "신규S": 75000,
+      "신규A": 60000,
+      "파생B": 52500,
+      "파생C": 45000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 표지 포함 단가 - Size 기준 없음 - 기본 시안 2개 - 등급 기준은 신규:개발(100%), 파생:개선(50%이상) *50%이하는 인정하지 않음. - 페이지별 단가",
+     "row": 50
+    },
+    {
+     "id": "edit_a.8",
+     "cost_type": "디자인비",
+     "item": "컴퓨터그래픽합성",
+     "detail": null,
+     "prices": {
+      "신규S": 140000,
+      "신규A": 140000,
+      "파생B": 140000,
+      "파생C": 140000,
+      "수정A": 140000,
+      "수정B": 140000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "시간당 단가 (1p x 1h)",
+     "row": 51
+    },
+    {
+     "id": "edit_a.9",
+     "cost_type": "디자인비",
+     "item": "스톡이미지",
+     "detail": null,
+     "prices": {
+      "신규S": 200000,
+      "신규A": 200000,
+      "파생B": 200000,
+      "파생C": 200000,
+      "수정A": 200000,
+      "수정B": 200000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "이미지 개당 단가 (전체 페이지의 70%를 기본으로 함)",
+     "row": 52
+    },
+    {
+     "id": "edit_a.10",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "내지 (12p 이하)",
+     "prices": {
+      "신규S": 90000,
+      "신규A": 72000,
+      "파생B": 63000,
+      "파생C": 54000,
+      "수정A": 27000,
+      "수정B": 18000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 1P당 단가 - 원고작업 포함(Layout, Type Setting, 기타 아트웍) - 50%이하 부분 수정 시 단가의 30% 인정 - 50%이상 부분 수정 시 단가의 100% 인정",
+     "row": 53
+    },
+    {
+     "id": "edit_a.11",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "내지 (14p~24p)",
+     "prices": {
+      "신규S": 81000,
+      "신규A": 64800,
+      "파생B": 56700,
+      "파생C": 48600,
+      "수정A": 24300,
+      "수정B": 16200
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 1P당 단가 - 원고작업 포함(Layout, Type Setting, 기타 아트웍) - 50%이하 부분 수정 시 단가의 30% 인정 - 50%이상 부분 수정 시 단가의 100% 인정",
+     "row": 54
+    },
+    {
+     "id": "edit_a.12",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "내지 (26p~48p)",
+     "prices": {
+      "신규S": 72000,
+      "신규A": 57600,
+      "파생B": 50400,
+      "파생C": 43200,
+      "수정A": 21600,
+      "수정B": 14400
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 1P당 단가 - 원고작업 포함(Layout, Type Setting, 기타 아트웍) - 50%이하 부분 수정 시 단가의 30% 인정 - 50%이상 부분 수정 시 단가의 100% 인정",
+     "row": 55
+    },
+    {
+     "id": "edit_a.13",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "내지 (48p 초과)",
+     "prices": {
+      "신규S": 63000,
+      "신규A": 50400,
+      "파생B": 44100,
+      "파생C": 37800,
+      "수정A": 18900,
+      "수정B": 12600
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 1P당 단가 - 원고작업 포함(Layout, Type Setting, 기타 아트웍) - 50%이하 부분 수정 시 단가의 30% 인정 - 50%이상 부분 수정 시 단가의 100% 인정",
+     "row": 56
+    },
+    {
+     "id": "edit_a.14",
+     "cost_type": "카피",
+     "item": "카피라이팅",
+     "detail": null,
+     "prices": {
+      "신규S": 500000,
+      "신규A": 350000,
+      "파생B": 200000,
+      "파생C": 150000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 57
+    }
+   ]
+  },
+  {
+   "id": "edit_b",
+   "name": "편집 디자인 Level B (리플렛, 전단, DM(접지형), 세일즈가이드, 매뉴얼 등)",
+   "items": [
+    {
+     "id": "edit_b.0",
+     "cost_type": "기획비",
+     "item": "컨셉 및 기획료",
+     "detail": null,
+     "prices": {
+      "신규S": 800000,
+      "신규A": 640000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 60
+    },
+    {
+     "id": "edit_b.1",
+     "cost_type": "기획비",
+     "item": "디렉션료",
+     "detail": null,
+     "prices": {
+      "신규S": 300000,
+      "신규A": 240000,
+      "파생B": 180000,
+      "파생C": 120000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 61
+    },
+    {
+     "id": "edit_b.2",
+     "cost_type": "기획비",
+     "item": "시안제작비",
+     "detail": null,
+     "prices": {
+      "신규S": 350000,
+      "신규A": 280000,
+      "파생B": 245000,
+      "파생C": 210000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 62
+    },
+    {
+     "id": "edit_b.3",
+     "cost_type": "디자인비",
+     "item": "크리에이티브",
+     "detail": "양면(낱장)",
+     "prices": {
+      "신규S": 400000,
+      "신규A": 320000,
+      "파생B": 280000,
+      "파생C": 240000,
+      "수정A": 160000,
+      "수정B": 120000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "페이지별 단가",
+     "row": 63
+    },
+    {
+     "id": "edit_b.4",
+     "cost_type": "디자인비",
+     "item": "크리에이티브",
+     "detail": "2단 접지",
+     "prices": {
+      "신규S": 500000,
+      "신규A": 400000,
+      "파생B": 350000,
+      "파생C": 300000,
+      "수정A": 200000,
+      "수정B": 150000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "페이지별 단가",
+     "row": 64
+    },
+    {
+     "id": "edit_b.5",
+     "cost_type": "디자인비",
+     "item": "크리에이티브",
+     "detail": "3단 접지 이상",
+     "prices": {
+      "신규S": 550000,
+      "신규A": 440000,
+      "파생B": 385000,
+      "파생C": 330000,
+      "수정A": 220000,
+      "수정B": 165000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "페이지별 단가",
+     "row": 65
+    },
+    {
+     "id": "edit_b.6",
+     "cost_type": "디자인비",
+     "item": "컴퓨터그래픽합성",
+     "detail": null,
+     "prices": {
+      "신규S": 120000,
+      "신규A": 120000,
+      "파생B": 120000,
+      "파생C": 120000,
+      "수정A": 120000,
+      "수정B": 120000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "시간당 단가 (1p x 3h)",
+     "row": 66
+    },
+    {
+     "id": "edit_b.7",
+     "cost_type": "디자인비",
+     "item": "스톡이미지",
+     "detail": null,
+     "prices": {
+      "신규S": 200000,
+      "신규A": 200000,
+      "파생B": 200000,
+      "파생C": 200000,
+      "수정A": 200000,
+      "수정B": 200000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "이미지 개당 단가",
+     "row": 67
+    },
+    {
+     "id": "edit_b.8",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "양면(낱장)",
+     "prices": {
+      "신규S": 100000,
+      "신규A": 100000,
+      "파생B": 100000,
+      "파생C": 100000,
+      "수정A": 100000,
+      "수정B": 100000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "페이지별 단가",
+     "row": 68
+    },
+    {
+     "id": "edit_b.9",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "2단 접지",
+     "prices": {
+      "신규S": 120000,
+      "신규A": 120000,
+      "파생B": 120000,
+      "파생C": 120000,
+      "수정A": 120000,
+      "수정B": 120000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "페이지별 단가",
+     "row": 69
+    },
+    {
+     "id": "edit_b.10",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "3단 접지 이상",
+     "prices": {
+      "신규S": 140000,
+      "신규A": 140000,
+      "파생B": 140000,
+      "파생C": 140000,
+      "수정A": 140000,
+      "수정B": 140000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "페이지별 단가",
+     "row": 70
+    },
+    {
+     "id": "edit_b.11",
+     "cost_type": "카피",
+     "item": "카피라이팅",
+     "detail": null,
+     "prices": {
+      "신규S": 500000,
+      "신규A": 300000,
+      "파생B": 250000,
+      "파생C": 150000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 71
+    }
+   ]
+  },
+  {
+   "id": "posm",
+   "name": "POSM/VMD/POP 디자인",
+   "items": [
+    {
+     "id": "posm.0",
+     "cost_type": "기획비",
+     "item": "컨셉 및 기획료",
+     "detail": null,
+     "prices": {
+      "신규S": 1800000,
+      "신규A": 1200000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 74
+    },
+    {
+     "id": "posm.1",
+     "cost_type": "기획비",
+     "item": "시안제작비",
+     "detail": null,
+     "prices": {
+      "신규S": 900000,
+      "신규A": 600000,
+      "파생B": 400000,
+      "파생C": 200000,
+      "수정A": 100000,
+      "수정B": 50000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 75
+    },
+    {
+     "id": "posm.2",
+     "cost_type": "디자인비",
+     "item": "크리에이티브",
+     "detail": "태그류",
+     "prices": {
+      "신규S": 350000,
+      "신규A": 280000,
+      "파생B": 175000,
+      "파생C": 140000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 76
+    },
+    {
+     "id": "posm.3",
+     "cost_type": "디자인비",
+     "item": "크리에이티브",
+     "detail": "현수막, 와이드배너",
+     "prices": {
+      "신규S": 500000,
+      "신규A": 400000,
+      "파생B": 250000,
+      "파생C": 200000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 77
+    },
+    {
+     "id": "posm.4",
+     "cost_type": "디자인비",
+     "item": "크리에이티브",
+     "detail": "스탠드,평면구조",
+     "prices": {
+      "신규S": 600000,
+      "신규A": 480000,
+      "파생B": 300000,
+      "파생C": 240000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 78
+    },
+    {
+     "id": "posm.5",
+     "cost_type": "디자인비",
+     "item": "크리에이티브",
+     "detail": "입체구조물",
+     "prices": {
+      "신규S": 1000000,
+      "신규A": 800000,
+      "파생B": 500000,
+      "파생C": 400000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 79
+    },
+    {
+     "id": "posm.6",
+     "cost_type": "디자인비",
+     "item": "컴퓨터그래픽합성",
+     "detail": null,
+     "prices": {
+      "신규S": 200000,
+      "신규A": 200000,
+      "파생B": 200000,
+      "파생C": 200000,
+      "수정A": 200000,
+      "수정B": 200000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "시간당 단가, 3D 렌더링 포함",
+     "row": 80
+    },
+    {
+     "id": "posm.7",
+     "cost_type": "디자인비",
+     "item": "스톡이미지",
+     "detail": null,
+     "prices": {
+      "신규S": 200000,
+      "신규A": 200000,
+      "파생B": 200000,
+      "파생C": 200000,
+      "수정A": 200000,
+      "수정B": 200000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "이미지 개당 단가",
+     "row": 81
+    },
+    {
+     "id": "posm.8",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "태그류",
+     "prices": {
+      "신규S": 80000,
+      "신규A": 80000,
+      "파생B": 80000,
+      "파생C": 80000,
+      "수정A": 80000,
+      "수정B": 80000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": null,
+     "row": 82
+    },
+    {
+     "id": "posm.9",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "현수막, 와이드배너",
+     "prices": {
+      "신규S": 100000,
+      "신규A": 100000,
+      "파생B": 100000,
+      "파생C": 100000,
+      "수정A": 100000,
+      "수정B": 100000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": null,
+     "row": 83
+    },
+    {
+     "id": "posm.10",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "스탠드,평면구조",
+     "prices": {
+      "신규S": 120000,
+      "신규A": 120000,
+      "파생B": 120000,
+      "파생C": 120000,
+      "수정A": 120000,
+      "수정B": 120000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": null,
+     "row": 84
+    },
+    {
+     "id": "posm.11",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "입체구조물",
+     "prices": {
+      "신규S": 220000,
+      "신규A": 220000,
+      "파생B": 220000,
+      "파생C": 220000,
+      "수정A": 220000,
+      "수정B": 220000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": null,
+     "row": 85
+    },
+    {
+     "id": "posm.12",
+     "cost_type": "카피",
+     "item": "카피라이팅",
+     "detail": null,
+     "prices": {},
+     "flat": false,
+     "negotiable": true,
+     "note": null,
+     "row": 86
+    }
+   ]
+  },
+  {
+   "id": "package",
+   "name": "패키지 디자인",
+   "items": [
+    {
+     "id": "package.0",
+     "cost_type": "기획비",
+     "item": "컨셉 및 기획료",
+     "detail": null,
+     "prices": {
+      "신규S": 2000000,
+      "신규A": 1400000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 89
+    },
+    {
+     "id": "package.1",
+     "cost_type": "기획비",
+     "item": "시안제작비",
+     "detail": null,
+     "prices": {
+      "신규S": 800000,
+      "신규A": 640000,
+      "파생B": 480000,
+      "파생C": 320000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "시안갯수별 단가",
+     "row": 90
+    },
+    {
+     "id": "package.2",
+     "cost_type": "디자인비",
+     "item": "크리에이티브",
+     "detail": "그래픽 개발",
+     "prices": {
+      "신규S": 3160000,
+      "신규A": 2528000,
+      "파생B": 1896000,
+      "파생C": 1264000,
+      "수정A": 94800,
+      "수정B": 63200
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 91
+    },
+    {
+     "id": "package.3",
+     "cost_type": "디자인비",
+     "item": "크리에이티브",
+     "detail": "구조개발",
+     "prices": {
+      "신규S": 3500000,
+      "신규A": 2450000,
+      "파생B": 1400000,
+      "파생C": 700000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 92
+    },
+    {
+     "id": "package.4",
+     "cost_type": "디자인비",
+     "item": "컴퓨터그래픽합성",
+     "detail": null,
+     "prices": {
+      "신규S": 140000,
+      "신규A": 140000,
+      "파생B": 140000,
+      "파생C": 140000,
+      "수정A": 140000,
+      "수정B": 140000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "시간당 단가 (1면 x 2h), 기본 6면",
+     "row": 93
+    },
+    {
+     "id": "package.5",
+     "cost_type": "디자인비",
+     "item": "스톡이미지",
+     "detail": null,
+     "prices": {
+      "신규S": 200000,
+      "신규A": 200000,
+      "파생B": 200000,
+      "파생C": 200000,
+      "수정A": 200000,
+      "수정B": 200000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "이미지 개당 단가, 기본 2컷",
+     "row": 94
+    },
+    {
+     "id": "package.6",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": null,
+     "prices": {
+      "신규S": 600000,
+      "신규A": 600000,
+      "파생B": 300000,
+      "파생C": 300000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 1P,K,G 당 단가 - 원고작업 포함(Layout, Type Setting, 기타 아트웍) - 50%이하 부분 수정 시 단가의 30% 인정 - 50%이상 부분 수정 시 단가의 100% 인정",
+     "row": 95
+    },
+    {
+     "id": "package.7",
+     "cost_type": "카피",
+     "item": "카피라이팅",
+     "detail": null,
+     "prices": {
+      "신규S": 500000,
+      "신규A": 350000,
+      "파생B": 200000,
+      "파생C": 150000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 96
+    }
+   ]
+  },
+  {
+   "id": "web_pdp",
+   "name": "Web PDP(랜딩페이지, 상세페이지)",
+   "items": [
+    {
+     "id": "web_pdp.0",
+     "cost_type": "기획비",
+     "item": "컨셉 및 기획료",
+     "detail": null,
+     "prices": {
+      "신규S": 1800000,
+      "신규A": 1200000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 99
+    },
+    {
+     "id": "web_pdp.1",
+     "cost_type": "기획비",
+     "item": "시안제작비",
+     "detail": null,
+     "prices": {
+      "신규S": 800000,
+      "신규A": 600000,
+      "파생B": 400000,
+      "파생C": 200000,
+      "수정A": 100000,
+      "수정B": 50000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "24P 이하 재단 포함(1회)",
+     "row": 100
+    },
+    {
+     "id": "web_pdp.2",
+     "cost_type": "디자인비",
+     "item": "크리에이티브",
+     "detail": null,
+     "prices": {
+      "신규S": 450000,
+      "신규A": 270000,
+      "파생B": 225000,
+      "파생C": 135000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "카테고리별 단가",
+     "row": 101
+    },
+    {
+     "id": "web_pdp.3",
+     "cost_type": "디자인비",
+     "item": "컴퓨터그래픽합성",
+     "detail": null,
+     "prices": {
+      "신규S": 120000,
+      "신규A": 120000,
+      "파생B": 120000,
+      "파생C": 120000,
+      "수정A": 120000,
+      "수정B": 120000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "시간당 단가",
+     "row": 102
+    },
+    {
+     "id": "web_pdp.4",
+     "cost_type": "디자인비",
+     "item": "스톡이미지",
+     "detail": null,
+     "prices": {
+      "신규S": 200000,
+      "신규A": 200000,
+      "파생B": 200000,
+      "파생C": 200000,
+      "수정A": 200000,
+      "수정B": 200000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "이미지 개당 단가",
+     "row": 103
+    },
+    {
+     "id": "web_pdp.5",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": null,
+     "prices": {
+      "신규S": 120000,
+      "신규A": 120000,
+      "파생B": 120000,
+      "파생C": 120000,
+      "수정A": 120000,
+      "수정B": 120000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "페이지별 단가",
+     "row": 104
+    },
+    {
+     "id": "web_pdp.6",
+     "cost_type": "카피",
+     "item": "카피라이팅",
+     "detail": null,
+     "prices": {
+      "신규S": 500000,
+      "신규A": 300000,
+      "파생B": 250000,
+      "파생C": 150000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 105
+    }
+   ]
+  },
+  {
+   "id": "cardnews",
+   "name": "Web CARDNEWS(온라인 카드뉴스)",
+   "items": [
+    {
+     "id": "cardnews.0",
+     "cost_type": "기획비",
+     "item": "컨셉 및 기획료",
+     "detail": null,
+     "prices": {
+      "신규S": 1100000,
+      "신규A": 550000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 108
+    },
+    {
+     "id": "cardnews.1",
+     "cost_type": "기획비",
+     "item": "시안제작비",
+     "detail": null,
+     "prices": {
+      "신규S": 600000,
+      "신규A": 480000,
+      "파생B": 360000,
+      "파생C": 240000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 109
+    },
+    {
+     "id": "cardnews.2",
+     "cost_type": "디자인비",
+     "item": "크리에이티브료",
+     "detail": "표지 디자인",
+     "prices": {
+      "신규S": 600000,
+      "신규A": 480000,
+      "파생B": 420000,
+      "파생C": 360000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 표지 포함 단가 - Size 기준 없음 - 기본 시안 2개 - 등급 기준은 신규:개발(100%), 파생:개선(50%이상) *50%이하는 인정하지 않음. - 페이지별 단가",
+     "row": 110
+    },
+    {
+     "id": "cardnews.3",
+     "cost_type": "디자인비",
+     "item": "크리에이티브료",
+     "detail": "내지 (12p 이하)",
+     "prices": {
+      "신규S": 120000,
+      "신규A": 96000,
+      "파생B": 84000,
+      "파생C": 72000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 표지 포함 단가 - Size 기준 없음 - 기본 시안 2개 - 등급 기준은 신규:개발(100%), 파생:개선(50%이상) *50%이하는 인정하지 않음. - 페이지별 단가",
+     "row": 111
+    },
+    {
+     "id": "cardnews.4",
+     "cost_type": "디자인비",
+     "item": "크리에이티브료",
+     "detail": "내지 (13p 초과)",
+     "prices": {
+      "신규S": 96000,
+      "신규A": 76800,
+      "파생B": 67200,
+      "파생C": 57600
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 표지 포함 단가 - Size 기준 없음 - 기본 시안 2개 - 등급 기준은 신규:개발(100%), 파생:개선(50%이상) *50%이하는 인정하지 않음. - 페이지별 단가",
+     "row": 112
+    },
+    {
+     "id": "cardnews.5",
+     "cost_type": "디자인비",
+     "item": "컴퓨터그래픽합성",
+     "detail": null,
+     "prices": {
+      "신규S": 140000,
+      "신규A": 140000,
+      "파생B": 140000,
+      "파생C": 140000,
+      "수정A": 140000,
+      "수정B": 140000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "시간당 단가 (1p x 1h)",
+     "row": 113
+    },
+    {
+     "id": "cardnews.6",
+     "cost_type": "디자인비",
+     "item": "스톡이미지",
+     "detail": null,
+     "prices": {
+      "신규S": 200000,
+      "신규A": 200000,
+      "파생B": 200000,
+      "파생C": 200000,
+      "수정A": 200000,
+      "수정B": 200000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "이미지 개당 단가 (전체 페이지의 70%를 기본으로 함)",
+     "row": 114
+    },
+    {
+     "id": "cardnews.7",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "내지 (12p 이하)",
+     "prices": {
+      "신규S": 50000,
+      "신규A": 40000,
+      "파생B": 35000,
+      "파생C": 30000,
+      "수정A": 15000,
+      "수정B": 10000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 1P당 단가 - 원고작업 포함(Layout, Type Setting, 기타 아트웍) - 50%이하 부분 수정 시 단가의 30% 인정 - 50%이상 부분 수정 시 단가의 100% 인정",
+     "row": 115
+    },
+    {
+     "id": "cardnews.8",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": "내지 (13p 초과)",
+     "prices": {
+      "신규S": 40000,
+      "신규A": 32000,
+      "파생B": 28000,
+      "파생C": 24000,
+      "수정A": 12000,
+      "수정B": 8000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "- 1P당 단가 - 원고작업 포함(Layout, Type Setting, 기타 아트웍) - 50%이하 부분 수정 시 단가의 30% 인정 - 50%이상 부분 수정 시 단가의 100% 인정",
+     "row": 116
+    },
+    {
+     "id": "cardnews.9",
+     "cost_type": "카피",
+     "item": "카피라이팅",
+     "detail": null,
+     "prices": {},
+     "flat": false,
+     "negotiable": true,
+     "note": "별도 협의",
+     "row": 117
+    }
+   ]
+  },
+  {
+   "id": "graphic_source",
+   "name": "그래픽 소스 개발(타이포그래픽)",
+   "items": [
+    {
+     "id": "graphic_source.0",
+     "cost_type": "기획비",
+     "item": "컨셉 및 기획료",
+     "detail": null,
+     "prices": {
+      "신규S": 900000,
+      "신규A": 450000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "디자인 방향성 기획",
+     "row": 120
+    },
+    {
+     "id": "graphic_source.1",
+     "cost_type": "기획비",
+     "item": "시안제작비",
+     "detail": null,
+     "prices": {
+      "신규S": 130000,
+      "신규A": 100000,
+      "파생B": 80000,
+      "파생C": 60000,
+      "수정A": 40000,
+      "수정B": 30000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "시안 옵션별 적용",
+     "row": 121
+    },
+    {
+     "id": "graphic_source.2",
+     "cost_type": "디자인비",
+     "item": "크리에이티브료",
+     "detail": null,
+     "prices": {
+      "신규S": 300000,
+      "신규A": 200000,
+      "파생B": 150000,
+      "파생C": 100000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "AW 크리에이티브 비용",
+     "row": 122
+    },
+    {
+     "id": "graphic_source.3",
+     "cost_type": "디자인비",
+     "item": "스톡이미지",
+     "detail": null,
+     "prices": {
+      "신규S": 200000,
+      "신규A": 200000,
+      "파생B": 200000,
+      "파생C": 200000,
+      "수정A": 200000,
+      "수정B": 200000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "소스 사용시 적용",
+     "row": 123
+    },
+    {
+     "id": "graphic_source.4",
+     "cost_type": "카피",
+     "item": "카피라이팅",
+     "detail": null,
+     "prices": {
+      "신규S": 250000,
+      "신규A": 200000,
+      "파생B": 150000,
+      "파생C": 100000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "별도 협의",
+     "row": 124
+    }
+   ]
+  },
+  {
+   "id": "video",
+   "name": "영상 편집",
+   "items": [
+    {
+     "id": "video.0",
+     "cost_type": "기획비",
+     "item": "컨셉 및 기획료",
+     "detail": null,
+     "prices": {
+      "신규S": 2000000,
+      "신규A": 2000000,
+      "파생B": 1400000,
+      "파생C": 1400000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "*편당 단가",
+     "row": 127
+    },
+    {
+     "id": "video.1",
+     "cost_type": "기획비",
+     "item": "시안 제작비(편당)",
+     "detail": null,
+     "prices": {
+      "신규S": 600000,
+      "신규A": 600000,
+      "파생B": 400000,
+      "파생C": 400000,
+      "수정A": 200000,
+      "수정B": 200000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "*편당 단가",
+     "row": 128
+    },
+    {
+     "id": "video.2",
+     "cost_type": "기획비",
+     "item": "콘티작화",
+     "detail": null,
+     "prices": {
+      "신규S": 1000000,
+      "신규A": 1000000,
+      "파생B": 600000,
+      "파생C": 600000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "*편당 단가",
+     "row": 129
+    },
+    {
+     "id": "video.3",
+     "cost_type": "저작권료 (1 Year)",
+     "item": "Stock Video",
+     "detail": null,
+     "prices": {
+      "신규S": 300000,
+      "신규A": 300000,
+      "파생B": 300000,
+      "파생C": 300000,
+      "수정A": 300000,
+      "수정B": 300000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "1개 컨텐츠의 1년 사용료",
+     "row": 130
+    },
+    {
+     "id": "video.4",
+     "cost_type": "저작권료 (1 Year)",
+     "item": "Stock Audio (BGM)",
+     "detail": null,
+     "prices": {
+      "신규S": 300000,
+      "신규A": 300000,
+      "파생B": 300000,
+      "파생C": 300000,
+      "수정A": 300000,
+      "수정B": 300000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "1개 컨텐츠의 1년 사용료",
+     "row": 131
+    },
+    {
+     "id": "video.5",
+     "cost_type": "프로덕션",
+     "item": "Color Grading (컨버팅 및 색보정)",
+     "detail": null,
+     "prices": {
+      "신규S": 2500000,
+      "신규A": 2500000,
+      "파생B": 2500000,
+      "파생C": 2500000,
+      "수정A": 2500000,
+      "수정B": 2500000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "*편당 진행비",
+     "row": 132
+    },
+    {
+     "id": "video.6",
+     "cost_type": "프로덕션",
+     "item": "Editing",
+     "detail": "240' 이상",
+     "prices": {},
+     "flat": false,
+     "negotiable": true,
+     "note": "*편당 단가",
+     "row": 133
+    },
+    {
+     "id": "video.7",
+     "cost_type": "프로덕션",
+     "item": "Editing",
+     "detail": "240' 이하",
+     "prices": {
+      "신규S": 3600000,
+      "신규A": 3600000,
+      "파생B": 3600000,
+      "파생C": 3600000,
+      "수정A": 3600000,
+      "수정B": 3600000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "*편당 단가",
+     "row": 134
+    },
+    {
+     "id": "video.8",
+     "cost_type": "프로덕션",
+     "item": "Editing",
+     "detail": "120' 이하",
+     "prices": {
+      "신규S": 1600000,
+      "신규A": 1600000,
+      "파생B": 1600000,
+      "파생C": 1600000,
+      "수정A": 1600000,
+      "수정B": 1600000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "*편당 단가",
+     "row": 135
+    },
+    {
+     "id": "video.9",
+     "cost_type": "프로덕션",
+     "item": "Editing",
+     "detail": "60' 이하",
+     "prices": {
+      "신규S": 900000,
+      "신규A": 900000,
+      "파생B": 900000,
+      "파생C": 900000,
+      "수정A": 900000,
+      "수정B": 900000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "*편당 단가",
+     "row": 136
+    },
+    {
+     "id": "video.10",
+     "cost_type": "프로덕션",
+     "item": "Editing",
+     "detail": "20' 이하",
+     "prices": {
+      "신규S": 500000,
+      "신규A": 500000,
+      "파생B": 500000,
+      "파생C": 500000,
+      "수정A": 500000,
+      "수정B": 500000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "*편당 단가",
+     "row": 137
+    },
+    {
+     "id": "video.11",
+     "cost_type": "프로덕션",
+     "item": "Graphic",
+     "detail": "2D - Illustration Design",
+     "prices": {},
+     "flat": false,
+     "negotiable": true,
+     "note": "*별도협의 단가",
+     "row": 138
+    },
+    {
+     "id": "video.12",
+     "cost_type": "프로덕션",
+     "item": null,
+     "detail": "자막 삽입/변경",
+     "prices": {
+      "신규S": 230000,
+      "신규A": 230000,
+      "파생B": 150000,
+      "파생C": 150000,
+      "수정A": 60000,
+      "수정B": 60000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "* 폰트 12pt 사이즈, A4 1매 기준",
+     "row": 139
+    },
+    {
+     "id": "video.13",
+     "cost_type": "프로덕션",
+     "item": "Audio",
+     "detail": "Audio Mixing",
+     "prices": {
+      "신규S": 1300000,
+      "신규A": 1300000,
+      "파생B": 1300000,
+      "파생C": 1300000,
+      "수정A": 1300000,
+      "수정B": 1300000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "* 오디오 효과 적용 작업비",
+     "row": 140
+    },
+    {
+     "id": "video.14",
+     "cost_type": "프로덕션",
+     "item": "Audio",
+     "detail": "Audio Selecting",
+     "prices": {
+      "신규S": 300000,
+      "신규A": 300000,
+      "파생B": 300000,
+      "파생C": 300000,
+      "수정A": 300000,
+      "수정B": 300000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "*오디오 선곡비 (1곡기준)",
+     "row": 141
+    },
+    {
+     "id": "video.15",
+     "cost_type": "프로덕션",
+     "item": "Audio",
+     "detail": "Audio Producing",
+     "prices": {
+      "신규S": 500000,
+      "신규A": 500000,
+      "파생B": 500000,
+      "파생C": 500000,
+      "수정A": 500000,
+      "수정B": 500000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "*디렉션료",
+     "row": 142
+    },
+    {
+     "id": "video.16",
+     "cost_type": "프로덕션",
+     "item": "Audio",
+     "detail": "Studio rental",
+     "prices": {
+      "신규S": 50000,
+      "신규A": 50000,
+      "파생B": 50000,
+      "파생C": 50000,
+      "수정A": 50000,
+      "수정B": 50000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "*녹음 스튜디오 1시간 사용료",
+     "row": 143
+    },
+    {
+     "id": "video.17",
+     "cost_type": "프로덕션",
+     "item": "Voice(성우)",
+     "detail": "S Class - 아나운서급",
+     "prices": {
+      "신규S": 600000,
+      "신규A": 600000,
+      "파생B": 600000,
+      "파생C": 600000,
+      "수정A": 600000,
+      "수정B": 600000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "* 폰트 12pt 사이즈, A4 1매 기준",
+     "row": 144
+    },
+    {
+     "id": "video.18",
+     "cost_type": "프로덕션",
+     "item": "Voice(성우)",
+     "detail": "A Class - 일반급",
+     "prices": {
+      "신규S": 300000,
+      "신규A": 300000,
+      "파생B": 300000,
+      "파생C": 300000,
+      "수정A": 300000,
+      "수정B": 300000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "* 폰트 12pt 사이즈, A4 1매 기준",
+     "row": 145
+    },
+    {
+     "id": "video.19",
+     "cost_type": "프로덕션",
+     "item": "Voice(성우)",
+     "detail": "B Class - AI 활용",
+     "prices": {
+      "신규S": 50000,
+      "신규A": 50000,
+      "파생B": 50000,
+      "파생C": 50000,
+      "수정A": 50000,
+      "수정B": 50000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "* 폰트 12pt 사이즈, A4 1매 기준",
+     "row": 146
+    },
+    {
+     "id": "video.20",
+     "cost_type": "카피",
+     "item": "카피라이팅",
+     "detail": null,
+     "prices": {},
+     "flat": false,
+     "negotiable": true,
+     "note": "별도 협의",
+     "row": 147
+    }
+   ]
+  },
+  {
+   "id": "web_banner",
+   "name": "Web 이미지/ 배너",
+   "items": [
+    {
+     "id": "web_banner.0",
+     "cost_type": "기획비",
+     "item": "컨셉 및 기획료",
+     "detail": null,
+     "prices": {
+      "신규S": 1200000,
+      "신규A": 900000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 150
+    },
+    {
+     "id": "web_banner.1",
+     "cost_type": "기획비",
+     "item": "시안제작비",
+     "detail": null,
+     "prices": {
+      "신규S": 500000,
+      "신규A": 400000,
+      "파생B": 300000,
+      "파생C": 200000,
+      "수정A": 150000,
+      "수정B": 100000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": null,
+     "row": 151
+    },
+    {
+     "id": "web_banner.2",
+     "cost_type": "디자인비",
+     "item": "크리에이티브료",
+     "detail": null,
+     "prices": {
+      "신규S": 300000,
+      "신규A": 200000,
+      "파생B": 150000,
+      "파생C": 100000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "페이지당 단가",
+     "row": 152
+    },
+    {
+     "id": "web_banner.3",
+     "cost_type": "디자인비",
+     "item": "Animation graphic",
+     "detail": null,
+     "prices": {
+      "신규S": 400000,
+      "신규A": 300000,
+      "파생B": 250000,
+      "파생C": 200000,
+      "수정A": 150000,
+      "수정B": 100000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "페이지당 단가",
+     "row": 153
+    },
+    {
+     "id": "web_banner.4",
+     "cost_type": "디자인비",
+     "item": "컴퓨터그래픽합성",
+     "detail": null,
+     "prices": {
+      "신규S": 120000,
+      "신규A": 120000,
+      "파생B": 120000,
+      "파생C": 120000,
+      "수정A": 120000,
+      "수정B": 120000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "페이지 x 시간(1h) 단가",
+     "row": 154
+    },
+    {
+     "id": "web_banner.5",
+     "cost_type": "디자인비",
+     "item": "스톡이미지",
+     "detail": null,
+     "prices": {
+      "신규S": 200000,
+      "신규A": 200000,
+      "파생B": 200000,
+      "파생C": 200000,
+      "수정A": 200000,
+      "수정B": 200000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "이미지 개당 단가(페이지수 50% 기본 적용)",
+     "row": 155
+    },
+    {
+     "id": "web_banner.6",
+     "cost_type": "편집비",
+     "item": "원고 교정/교열",
+     "detail": null,
+     "prices": {
+      "신규S": 120000,
+      "신규A": 120000,
+      "파생B": 120000,
+      "파생C": 120000,
+      "수정A": 120000,
+      "수정B": 120000
+     },
+     "flat": true,
+     "negotiable": false,
+     "note": "페이지별 단가",
+     "row": 156
+    },
+    {
+     "id": "web_banner.7",
+     "cost_type": "카피",
+     "item": "카피라이팅",
+     "detail": null,
+     "prices": {
+      "신규S": 250000,
+      "신규A": 200000,
+      "파생B": 150000,
+      "파생C": 100000
+     },
+     "flat": false,
+     "negotiable": false,
+     "note": "별도 협의",
+     "row": 157
+    }
+   ]
+  }
+ ],
+ "grade_criteria": [
+  {
+   "section": "디자인",
+   "item": "기획",
+   "detail": "컨셉 및 기획료",
+   "grades": [
+    "⁃ 신규 디자인 컨셉 제시 ⁃ 세부 디자인 조사 & 분석 (자료 조사 / 시장분석 포함) ⁃ 신규컨셉에 따라 : 구조 / 소재 / 제본방법 등 솔루션 제공",
+    "⁃ Client Brief 기준 디자인 컨셉 진행 ⁃ 기본 디자인 조사 및 분석 (Client Brief 기준 / 기본 조사) ⁃ 글로벌 가이드 기준의 현지화",
+    "⁃ 컨셉 및 기획 없음.",
+    null,
+    "⁃ 컨셉 및 기획 없음.",
+    null
+   ],
+   "note": null,
+   "row": 6
+  },
+  {
+   "section": "디자인",
+   "item": "기획",
+   "detail": "시안제작비",
+   "grades": [
+    "⁃ 신규 디자인 시안 3종이상 제시",
+    "⁃ 신규 디자인 시안 3종 이하 제시",
+    "⁃ 파생 디자인 시안 2종이상 제시",
+    "⁃ 파생 디자인 시안 2종 이하 제시",
+    "⁃ 추가 시안 제시 없음",
+    null
+   ],
+   "note": null,
+   "row": 7
+  },
+  {
+   "section": "디자인",
+   "item": "디자인",
+   "detail": "크리에이티브 / 디자인 레이아웃 / 그래픽개발(PKG)",
+   "grades": [
+    "⁃ 신규 디자인 소스 개발 (합성 및 드로잉) - 디자인 레이아웃 구성 신규제안",
+    "⁃ Client 제공 디자인 소스 활용 (합성 및 드로잉 수정) - Client Brief 기준 디자인 레이아웃 적용",
+    "- 기존 디자인의 요소 변경 - 기존 디자인의 레이아웃 변경 - 기존 디자인의 사이즈 변경 - 기존 디자인의 시리즈 파생",
+    "- 기존 디자인의 요소 변경 - 기존 디자인의 레이아웃 변경 - 기존 디자인의 사이즈 고정",
+    "- 기존 디자인의 문구만 변경",
+    "- 기존 디자인의 컬러만 변경"
+   ],
+   "note": "⁃ 편집물 표지 / 포스터 별도 단가 적용 ⁃ 인쇄물 광고 (잡지/신문 등) 별도 단가 적용",
+   "row": 8
+  },
+  {
+   "section": "디자인",
+   "item": "디자인",
+   "detail": "Animation Graphic",
+   "grades": [
+    "- 크리에이티브와 동일 - 작업난이도 상 (키프레임 및 이펙트 적용)",
+    "- 크리에이티브와 동일 - 작업난이도 중 (간단한 모션)",
+    "- 크리에이티브와 동일 - 작업난이도 하 (원본영상을 활용)",
+    null,
+    "- 기존 디자인의 문구만 변경",
+    "- 기존 디자인의 컬러만 변경"
+   ],
+   "note": "⁃ 편집물 표지 / 포스터 별도 단가 적용 ⁃ 인쇄물 광고 (잡지/신문 등) 별도 단가 적용",
+   "row": 9
+  },
+  {
+   "section": "디자인",
+   "item": "디자인",
+   "detail": "구조개발",
+   "grades": [
+    "⁃ 신규 구조 개발 - 난이도 상,중",
+    "⁃ 신규 구조 개발 - 난이도 중,하",
+    "- 기존 구조의 결합방식 변경",
+    "- 기존 구조의 사이즈 변경",
+    "⁃ 없음",
+    null
+   ],
+   "note": "⁃ 편집물 표지 / 포스터 별도 단가 적용 ⁃ 인쇄물 광고 (잡지/신문 등) 별도 단가 적용",
+   "row": 10
+  },
+  {
+   "section": "디자인",
+   "item": "디자인",
+   "detail": "컴퓨터그래픽 합성",
+   "grades": [
+    "⁃ 리터칭 / 합성 / 칼라 최적화 등",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "⁃ 기본 작업 시간 외 추가시 (작업시간 X 작업단가) 적용",
+   "row": 11
+  },
+  {
+   "section": "디자인",
+   "item": "편집",
+   "detail": "원고 교정/교열",
+   "grades": [
+    "크리에이티브 / 디자인 레이아웃 항목과 동일하게 적용",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": null,
+   "row": 12
+  },
+  {
+   "section": "디자인",
+   "item": "카피",
+   "detail": "카피라이팅",
+   "grades": [
+    "⁃ 신규 컨셉의 새로운 문안 제시 - 광고용 헤드카피",
+    "⁃ 기본문안 중심으로 추가제시 - 광고용 헤드카피",
+    "- 문장 추가 / 조합 및 삭제 - 국문",
+    "- 단어 추가 / 조합 및 삭제 - 국문",
+    "⁃ 없음",
+    null
+   ],
+   "note": "⁃ 기본 작업 시간 외 추가시 ⁃ 국문기본(영문/일문/중문/ 제3국 별도적용)",
+   "row": 13
+  },
+  {
+   "section": "촬영",
+   "item": "제품촬영",
+   "detail": "단순 제품 촬영 (3종 이하 누끼)",
+   "grades": [
+    "제품의 갯수에 따라 차등 단가 적용",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "⁃ 4종 이상의 제품촬영은 별도 단가 협의",
+   "row": 14
+  },
+  {
+   "section": "촬영",
+   "item": "제품촬영",
+   "detail": "무드샷 / 이미지 촬영 (소품/배경이 포함)",
+   "grades": [
+    "소품 & 배경 조합에 따른 단순 연출비용 포함",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "⁃ 소품 구입시 비용 별도 ⁃ 전문연출(스타일리스트) 필요시 비용 별도",
+   "row": 15
+  },
+  {
+   "section": "촬영",
+   "item": "인물촬영",
+   "detail": "광고 및 모델촬영",
+   "grades": [
+    "모델에 따라 협의 진행",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "⁃ 데이타 사이즈 A4 기준 ⁃ 스튜디오 이외의 촬영은 별도 협의",
+   "row": 16
+  },
+  {
+   "section": "외주",
+   "item": "샘플제작",
+   "detail": "단순형",
+   "grades": [
+    "샘플 제작 기준에 준하여 적용",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "⁃ 외주 비용은 실비정산을 기본원칙으로함 - 진행비(외주항목 X 10%) - 이미지,영상 슬라이드는 1년계약이 기본 단, 별도의 기간 요청이 있을 시 별도 협의 *진행비 : 외주 관리 및 진행에 따른 비용",
+   "row": 17
+  },
+  {
+   "section": "외주",
+   "item": "라이센스",
+   "detail": "이미지 슬라이드",
+   "grades": [
+    "사용 컷 수에 따른 차등 적용",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "⁃ 외주 비용은 실비정산을 기본원칙으로함 - 진행비(외주항목 X 10%) - 이미지,영상 슬라이드는 1년계약이 기본 단, 별도의 기간 요청이 있을 시 별도 협의 *진행비 : 외주 관리 및 진행에 따른 비용",
+   "row": 20
+  },
+  {
+   "section": "외주",
+   "item": "라이센스",
+   "detail": "영상 슬라이드",
+   "grades": [
+    "사용 컷 수에 따른 차등 적용",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "⁃ 외주 비용은 실비정산을 기본원칙으로함 - 진행비(외주항목 X 10%) - 이미지,영상 슬라이드는 1년계약이 기본 단, 별도의 기간 요청이 있을 시 별도 협의 *진행비 : 외주 관리 및 진행에 따른 비용",
+   "row": 21
+  },
+  {
+   "section": "외주",
+   "item": "일러스트",
+   "detail": "삽화 및 캘리그라피",
+   "grades": [
+    "작가 별도 협의 후 진행",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "⁃ 외주 비용은 실비정산을 기본원칙으로함 - 진행비(외주항목 X 10%) - 이미지,영상 슬라이드는 1년계약이 기본 단, 별도의 기간 요청이 있을 시 별도 협의 *진행비 : 외주 관리 및 진행에 따른 비용",
+   "row": 22
+  },
+  {
+   "section": "외주",
+   "item": "서체",
+   "detail": "영문/국문/제3국",
+   "grades": [
+    "별도 협의 후 진행",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "⁃ 외주 비용은 실비정산을 기본원칙으로함 - 진행비(외주항목 X 10%) - 이미지,영상 슬라이드는 1년계약이 기본 단, 별도의 기간 요청이 있을 시 별도 협의 *진행비 : 외주 관리 및 진행에 따른 비용",
+   "row": 23
+  },
+  {
+   "section": "영상",
+   "item": "기획비",
+   "detail": "컨셉 및 기획료",
+   "grades": [
+    "⁃ 신규 영상 컨셉 제시 ⁃ 신규컨셉에 따라 : 솔루션 제공",
+    null,
+    "⁃ Client Brief 기준 영상 컨셉 진행 ⁃ 글로벌 가이드 기준의 현지화",
+    null,
+    "⁃ 컨셉 및 기획 없음.",
+    null
+   ],
+   "note": "*기획구성",
+   "row": 24
+  },
+  {
+   "section": "영상",
+   "item": "기획비",
+   "detail": "시안제작비",
+   "grades": [
+    "표준 단가 기준 적용",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "*편당 시안 제작비",
+   "row": 25
+  },
+  {
+   "section": "영상",
+   "item": "기획비",
+   "detail": "콘티작화",
+   "grades": [
+    "정밀 컬러 콘티",
+    null,
+    "러프 흑백 콘티",
+    null,
+    "없음",
+    null
+   ],
+   "note": "*편당 콘티 작화비",
+   "row": 26
+  },
+  {
+   "section": "영상",
+   "item": "저작권료",
+   "detail": "Stock Video",
+   "grades": [
+    "1년 사용료",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "*1개 컨텐츠",
+   "row": 27
+  },
+  {
+   "section": "영상",
+   "item": "저작권료",
+   "detail": "Stock Audio",
+   "grades": [
+    "1년 사용료",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "*1개 컨텐츠",
+   "row": 28
+  },
+  {
+   "section": "영상",
+   "item": "프로덕션",
+   "detail": "Color Grading",
+   "grades": [
+    "1편당 영상 컬러 밸런스 조절",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "*편당 진행비",
+   "row": 29
+  },
+  {
+   "section": "영상",
+   "item": "프로덕션",
+   "detail": "Editing",
+   "grades": [
+    "영상 시간대별 편집 비용 적용",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "*편당 단가",
+   "row": 30
+  },
+  {
+   "section": "영상",
+   "item": "프로덕션",
+   "detail": "Graphic",
+   "grades": [
+    "2D - Illustration Design 1컷 작화 삽입",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "*작화 1컷당 단가",
+   "row": 31
+  },
+  {
+   "section": "영상",
+   "item": "프로덕션",
+   "detail": "Subtitle",
+   "grades": [
+    "12pt 사이즈 A4 1매 기준 내용",
+    null,
+    "12pt 사이즈 A5 1매 기준 내용",
+    null,
+    "기존 작업물에서 수정",
+    null
+   ],
+   "note": "*작화 1컷당 단가",
+   "row": 32
+  },
+  {
+   "section": "영상",
+   "item": "프로덕션",
+   "detail": "Audio",
+   "grades": [
+    "* 오디오 효과 적용 작업비",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "*편당 단가",
+   "row": 33
+  },
+  {
+   "section": "영상",
+   "item": "프로덕션",
+   "detail": "Voice",
+   "grades": [
+    "성우 나레이션 적용비",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "*편당 단가",
+   "row": 34
+  },
+  {
+   "section": "기타",
+   "item": "디자인 심의",
+   "detail": null,
+   "grades": [
+    "표준 단가 기준 적용",
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "note": "⁃ 기준이외의 내용은 협의 후 실비 정산",
+   "row": 35
+  },
+  {
+   "section": "기타",
+   "item": "CG",
+   "detail": "리터칭 작업",
+   "grades": [
+    "CG 난이도 상",
+    null,
+    "CG 난이도 중",
+    null,
+    "CG 난이도 하",
+    null
+   ],
+   "note": null,
+   "row": 36
+  },
+  {
+   "section": "기타",
+   "item": "CG",
+   "detail": "리터칭 작업",
+   "grades": [
+    "S",
+    "A",
+    "B",
+    "C",
+    "A",
+    "B"
+   ],
+   "note": null,
+   "row": 37
+  },
+  {
+   "section": "기타",
+   "item": "CG",
+   "detail": "리터칭 작업",
+   "grades": [
+    "- 레이아웃 변경 - 요소변경 (객체 합성 추가/삭제) - 인물 리터칭 (신제부위 합성) - 텍스처/광원의 적용",
+    "- 레이아웃 변경 - 요소변경 (객체 단순 추가/삭제) - 인물 리터칭 (신제부위 합성) - 텍스처/광원의 적용",
+    "- 레이아웃 변경 요소변경 (부분 변경) - 인물 리터칭 (컬러 수정, A5 or 500px 이상 사이즈)",
+    "- 레이아웃 고정 - 요소변경 (부분 변경) - 인물 리터칭 (컬러 수정, A5 or 500px 이하 사이즈)",
+    "- 레이아웃 고정 - 요소변경 (컬러 수정) - 디자인 면적 50% 이상범위",
+    "- 레이아웃 고정 - 요소변경 (텍스트 수정) - 디자인 면적 50% 이하범위"
+   ],
+   "note": null,
+   "row": 38
+  },
+  {
+   "section": "기타",
+   "item": "감리",
+   "detail": "인쇄감리",
+   "grades": [
+    "차장 이상 1day",
+    "차장 이상 1/2day",
+    "과장 이상 1day",
+    "과장 이상 1/2day",
+    "과장 이하 1day",
+    "과장 이하 1/2day"
+   ],
+   "note": "⁃ 기준이외의 내용은 협의 후 실비 정산",
+   "row": 39
+  },
+  {
+   "section": "기타",
+   "item": "감리",
+   "detail": "제작감리",
+   "grades": [
+    "차장 이상 1day",
+    "차장 이상 1/2day",
+    "과장 이상 1day",
+    "과장 이상 1/2day",
+    "과장 이하 1day",
+    "과장 이하 1/2day"
+   ],
+   "note": "⁃ 기준이외의 내용은 협의 후 실비 정산",
+   "row": 40
+  }
+ ],
+ "rules": [
+  {
+   "id": "outsourcing_fee",
+   "text": "외주 항목은 진행비(외주 항목비 × 10%)를 가산한다",
+   "rate": 0.1,
+   "applies_to": [
+    "촬영",
+    "샘플 제작",
+    "외주"
+   ],
+   "source": "표준견적서 촬영비·샘플 목업 / 등급별 기준 외주"
+  },
+  {
+   "id": "stock_70",
+   "text": "스톡이미지는 전체 페이지의 70%를 기본 수량으로 한다",
+   "ratio": 0.7,
+   "applies_to": [
+    "edit_a",
+    "cardnews"
+   ],
+   "source": "표준견적서 편집 A·카드뉴스 스톡이미지 비고"
+  },
+  {
+   "id": "stock_50_banner",
+   "text": "웹 배너 스톡이미지는 페이지 수의 50%를 기본 적용한다",
+   "ratio": 0.5,
+   "applies_to": [
+    "web_banner"
+   ],
+   "source": "표준견적서 Web 이미지/배너 스톡이미지 비고"
+  },
+  {
+   "id": "partial_edit",
+   "text": "50% 이하 부분 수정은 단가의 30%, 50% 이상 수정은 100%를 인정한다",
+   "applies_to": [
+    "edit_a",
+    "package",
+    "cardnews"
+   ],
+   "source": "표준견적서 편집비 비고"
+  },
+  {
+   "id": "derivative_min",
+   "text": "파생 등급은 기존 대비 50% 이상 개선일 때만 인정한다(50% 이하는 인정하지 않음)",
+   "applies_to": [
+    "edit_a",
+    "cardnews"
+   ],
+   "source": "표준견적서 크리에이티브료 비고"
+  },
+  {
+   "id": "license_1y",
+   "text": "이미지·영상 라이선스는 1년 계약이 기본이며 다른 기간은 별도 협의",
+   "applies_to": [
+    "video",
+    "라이센스"
+   ],
+   "source": "등급별 기준 외주 비고"
+  },
+  {
+   "id": "actual_cost",
+   "text": "출력·도무송·후가공·배송·소품 등 제작 관련 비용은 실비 정산한다",
+   "applies_to": [
+    "샘플 제작",
+    "촬영",
+    "배송"
+   ],
+   "source": "샘플 제작 기준 / 촬영비"
+  },
+  {
+   "id": "vat",
+   "text": "모든 금액은 VAT 별도",
+   "rate": 0.1,
+   "applies_to": [
+    "*"
+   ],
+   "source": "표준견적서 결제조건"
+  },
+  {
+   "id": "payment",
+   "text": "세금계산서 접수 후 60일 이내 현금 결제",
+   "applies_to": [
+    "*"
+   ],
+   "source": "표준견적서 결제조건"
+  },
+  {
+   "id": "negotiable",
+   "text": "단가가 '별도 협의'로 적힌 항목은 자동 산출하지 않는다",
+   "applies_to": [
+    "*"
+   ],
+   "source": "표준견적서 각 항목 비고"
+  }
+ ]
+}

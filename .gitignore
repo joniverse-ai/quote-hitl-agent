@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+data/checkpoints.sqlite*
+data/threads.json
+data/outbox/
+data/mails.json
+data/mail_settings.json
+.DS_Store
+*.xlsx
+.claude/
+메인퀘스트-규칙문서-캡처.png

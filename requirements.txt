@@ -1,0 +1,9 @@
+langgraph>=1.0
+langgraph-checkpoint-sqlite
+langchain-openai
+networkx
+openpyxl
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic>=2
